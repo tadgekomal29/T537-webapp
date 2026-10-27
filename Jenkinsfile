@@ -1,7 +1,9 @@
 pipeline{
     environment{
+        REPOSITORY = 'webapp'
         IMAGE_NAME = 'webapp'
         IMAGE_TAG = '${Build_Number}'
+        USERNAME = 'tadgekomal29'
 
     }
     stages{
